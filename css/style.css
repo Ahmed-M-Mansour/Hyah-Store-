@@ -1,0 +1,108 @@
+
+
+
+.websiteColor
+{
+    color: #18A6BA !important;
+}
+
+
+/* The slider of the page */
+.slider 
+{
+   background-color: #F6F6F6;
+    font-size: 40px;
+    height: 700px;
+    overflow: hidden;
+}
+.slider i
+{
+  position: relative ; 
+  left: 10px;
+  color:#18A6BA;
+}
+
+.imgSlider
+{
+    width: 50%;
+}
+.imgSlider img
+{
+    margin-top: 220px;
+    height: 400px;
+}
+.text
+{
+  margin-top: 200px;
+  padding: 20px;
+ 
+}
+
+
+h1
+{
+    font-size: 30px;
+}
+
+
+
+/* Section of products */
+.products .headerOfSection .line
+{
+    border-bottom: 2px solid #F3F3F3;
+}
+.products .headerOfSection .line span{
+    display: block ;
+    width: 25%; 
+    height: 2px; 
+    margin: auto;
+    background-color: #18A6BA;
+}
+
+
+.products  .product
+{
+    margin-bottom: 50px;
+    transition: all 1s;
+}
+.products  .product:hover
+{
+    transform: scale(1.1);
+    color: #fff;
+ 
+}
+
+
+.products  .product h3
+{
+    font-size: 16px;
+    transition: all 1s;
+}
+.products  .product span
+{
+    color: #18A6BA !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+.products  .product:hover span
+{
+    color: #fff;
+}
+
+footer
+{
+    background-color: #18A6BA;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    margin-top: 20px;
+}
+footer a
+{
+    color: #111;
+    text-decoration: none ;
+}
+footer i 
+{
+    margin: 20px 20px;
+}
